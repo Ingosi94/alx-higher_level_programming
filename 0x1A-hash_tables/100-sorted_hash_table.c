@@ -14,7 +14,7 @@ void shash_table_delete(shash_table_t *ht);
  * Return: If an error occurs - NULL.
  *         Otherwise - a pointer to the new sorted hash table.
  */
-shash_table_t *shash_table_create(unsigned long int size)
+int shash_table_t *shash_table_create(unsigned long int size)
 {
 	shash_table_t *ht;
 	unsigned long int i;
